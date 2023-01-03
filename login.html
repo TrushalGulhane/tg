@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		
+		
+		*{
+			margin: 0;
+			
+			box-sizing: border-box;
+		}
+		body{ 
+			background-color: rgb(0, 64, 255);
+		}
+		.block{
+			width: 400px;
+			background-color: white;
+			padding: 30px 15px;
+			margin: auto;
+			margin-top: 100px;
+			font-family: sans-serifs;
+			border-radius: 50px;
+		}
+		.block .title{
+			border-left: 5px solid skyblue;
+			padding-left: 5px;
+			font-size: 30px;
+		}
+		.inputfield{
+			margin-top: 10px;
+			width: 100%;
+
+		}
+		.inputfield .inputlabel{
+			width: 100%;
+			display: block;
+			padding: 5px;
+			font-size: 20px;
+
+		}
+		.inputfield .input{
+			width: 100%;
+			display: block;
+			padding: 10px;
+			border: none;
+			outline: none;
+			border-bottom: 4px solid skyblue;
+			transition: 0.3s all ease;
+		}
+		.btn{
+			margin-top: 30px;
+			width: 100%;
+			padding: 5px;
+			font-size: 20px;
+			background-color: royalblue;
+			cursor: pointer;
+		}
+		p{
+			text-align: center;
+			padding-top: 15px;
+		}
+		a{
+		
+			text-decoration:none;
+			
+		}
+		a:hover , .btn:focus  {
+			text-decoration: underline;
+		}
+		.btn:hover, .btn:focus{
+			background-color: white;
+		}
+      .header{  
+      	width: 1000px;
+      	background-color: cornsilk;
+      	border-radius: 10px;
+      	margin: auto;
+      	
+
+       }
+
+     h1{
+     	font-size: 50px;
+     	font-weight: bold;
+     	color: darkred;
+     	padding: 20px;
+     	text-align: center;
+     }
+
+
+
+
+
+
+
+
+      
+
+
+
+	</style>
+</head>
+<body>
+	<!-- <div class="main"> --
+		<div class="main2">
+         <center><a href="index.html" class="clickhere">click here</a></center><br><br>
+         <form>
+         
+         		
+         			<b>Name :</b> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required="" name="username" placeholder="enter user name">
+                    <br><br>
+         			<b>Password :</b>
+         			<input type="Password"required="" name="Password" placeholder="enter Password">
+         
+                    <br>
+                    <br>
+         	<button type="submit" value="submit" > login here</a></button>
+            <center><a href="createaccount.html"><p>create account ?</p></a></center>
+            <center><p>forget password?</p></center>
+
+
+  
+         	<div class="username">
+         		<input type="text" required="" name="" placeholder="enter username">
+
+         	</div>
+
+         	<div class="password">
+         		<input type="Password" required="" name="" placeholder="enter Password">
+         		
+         	</div>
+
+         	<div class="login">
+         		
+         	</div>
+         	 
+
+
+         </form>
+        </div>
+    </div>
+-->
+        <div class="header"><h1> ONLINE PORTAL </h1></div> 
+
+       <div class="block">
+       	<h2 class="title"><a href="index.html">login</a></h2>
+       	<form class="form" action="">
+       		<div class="inputfield">
+       			<label for="mail" class="inputlabel"> email</label>
+       			<input type="email" name="mail" class="input" required placeholder="enter your mail">
+    
+       		</div>
+
+       		<div class="inputfield">
+       			<label for="password" class="inputlabel">password</label>
+       			<input type="password" name="password" class="input" required placeholder="enter your password">
+       			
+
+       		</div>
+                  
+       	       <button class="btn" name="submit"> login</button>
+       	       <p><a href="createaccount.html"> create account?</a></p>
+       	        <p> <a href="forgetusername.html"> forget username?</a></p>
+       	        <p><a href="forgetpassword.html"> forget password?</a> </p>
+
+
+                 
+       	</form>
+
+
+
+       </div> 
+
+
+</body>
+</html>
